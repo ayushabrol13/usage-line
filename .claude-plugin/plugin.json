@@ -1,0 +1,24 @@
+{
+  "name": "usage-line",
+  "version": "0.1.0",
+  "description": "Status line under the Claude Code prompt: context window fill, 5-hour and weekly plan usage with reset countdowns, and today's spend",
+  "author": { "name": "Ayush Abrol", "url": "https://github.com/ayushabrol13" },
+  "homepage": "https://github.com/ayushabrol13/usage-line",
+  "repository": "https://github.com/ayushabrol13/usage-line",
+  "license": "MIT",
+  "keywords": ["usage", "rate-limits", "context-window", "status-line", "claude-code"],
+  "userConfig": {
+    "barWidth": {
+      "type": "number",
+      "title": "Bar width",
+      "description": "Characters per usage bar (0 hides the bars, maximum 20)",
+      "default": 10
+    },
+    "showToday": {
+      "type": "boolean",
+      "title": "Show today's spend",
+      "description": "Add today's total cost across all Claude Code sessions",
+      "default": true
+    }
+  }
+}
